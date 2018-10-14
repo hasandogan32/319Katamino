@@ -1,4 +1,4 @@
-# Project Description
+# Super Katamino
 
   This project is the desktop implementation of Katamino by 2K group.
   

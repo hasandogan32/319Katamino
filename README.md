@@ -5,9 +5,15 @@ A game designed by 2K numbered group inspired from Katamino the board game.
 ### 2K Group Members
 
 Hasan Doğan - 21402109
-Mert Özerdem - 21300835
-Sine Mete - 21302158
-Sencer Umut Balkan – 21401911
+  
+  Mert Özerdem - 21300835
+  
+  Sine Mete - 21302158
+  
+  Sencer Umut Balkan - 21401911
+  
+  y
+
 Mustafa Azyoksul - 21501426
 
 ### What is Katamino?**

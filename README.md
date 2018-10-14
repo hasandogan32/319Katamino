@@ -10,11 +10,11 @@ A game designed by 2K numbered group inspired from Katamino the board game.
 * Sencer Umut Balkan - 21401911
 * Mustafa Azyoksul - 21501426
 
-### What is Katamino?**
+### What is Katamino?[1]
 
 Katamino is a board game in which some different geometric objects used to fill some space, changing according to difficulty levels. Space is not the only thing that determines difficulty. Use of some different shaped objects but not using others also plays a great role.
 Katamino board game requires observation and use of logical powers from players and it is used very often to develop children’s those mentioned skills.
-The link below in the references part can be checked for visualization and further information for Katamino.*
+The link below in the references part can be checked for visualization and further information for Katamino.[2]
 
 ### What is Super Katamino?
 
@@ -36,5 +36,5 @@ As the pieces will be chose and dragged, a mouse or a touchpad is a must for Sup
 
 ### References
 
-**	https://boardgamegeek.com/boardgame/6931/katamino
-* 	https://www.youtube.com/watch?v=BQY3Q3iTFrk
+* [1]	https://boardgamegeek.com/boardgame/6931/katamino
+* [2]	https://www.youtube.com/watch?v=BQY3Q3iTFrk

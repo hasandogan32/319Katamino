@@ -28,11 +28,11 @@ As the pieces will be chose and dragged, a mouse or a touchpad is a must for Sup
 
 ### “Super Katamino” vs “Katamino” 
 
-•	Super Katamino has 15 levels while Katamino has 12.
-•	Super Katamino has a scoreboard to enable players play more ambitiously but Katamino does not.
-•	Super Katamino provides more fun than Katamino by playing music, sounds and animations.
-•	Super Katamino generates shapes randomly and increase the maintainability of the game while the shapes are certain in Katamino.
-•	Super Katamino has a timer to be used for point calculations but Katamino does not.
+* Super Katamino has 15 levels while Katamino has 12.
+*	Super Katamino has a scoreboard to enable players play more ambitiously but Katamino does not.
+*	Super Katamino provides more fun than Katamino by playing music, sounds and animations.
+*	Super Katamino generates shapes randomly and increase the maintainability of the game while the shapes are certain in Katamino.
+*	Super Katamino has a timer to be used for point calculations but Katamino does not.
 
 ### References
 

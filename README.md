@@ -10,8 +10,6 @@ A game designed by 2K numbered group inspired from Katamino the board game.
 * Sencer Umut Balkan - 21401911
 * Mustafa Azyoksul - 21501426
 
-### Reports
-
 ### What is Katamino?[1]
 
 Katamino is a board game in which some different geometric objects used to fill some space, changing according to difficulty levels. Space is not the only thing that determines difficulty. Use of some different shaped objects but not using others also plays a great role.

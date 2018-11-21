@@ -54,6 +54,9 @@ public class GameManager {
         //init input
         input = new InputListener();
         //game.addKeyListener(input);
+        //MyListener myListener = new MyListener();
+        game.addMouseListener(input);
+        game.addMouseMotionListener(input);
 
         //Game loop
         final int TICKS_PER_SECOND = 60; // 60 frames per second
@@ -120,12 +123,24 @@ public class GameManager {
         GameManager g = new GameManager();
 
         //Initialise game objects
-        GameObject table = new Table();
-        GameObject pieceZ = new ZPiece();
+        Table table = new Table(5,7);
+        ZPiece pieceZ = new ZPiece();
         GameObject piecev = new VPiece();
         GameObject piecep = new PPiece();
         GameObject piecex = new XPiece();
         GameObject piecel = new IPiece();
+
+        pieceZ.setPositionX(100);
+        pieceZ.setPositionY(500);
+
+        piecev.setPositionX(150);
+        piecev.setPositionY(500);
+
+        piecep.setPositionX(300);
+        piecep.setPositionY(500);
+
+        piecex.setPositionX(450);
+        piecex.setPositionY(500);
 
         g.addRenderable(table);
         g.addUpdatables(table);
@@ -142,28 +157,8 @@ public class GameManager {
         g.addUpdatables(piecex);
         g.addRenderable(piecex);
 
-        g.addUpdatables(piecel);
-        g.addRenderable(piecel);
-
-        /*BufferStrategy b = game.getBufferStrategy();
-        if(b == null){
-            game.createBufferStrategy(2);
-            return;
-        }
-
-        Graphics2D g = (Graphics2D)b.getDrawGraphics();
-        Graphics2D g = (Graphics2D)game.getGraphics();
-        game.getGraphics().clearRect(0, 0, game.getWidth(), game.getHeight());
-        g.drawImage(table.getImage(), 0, 0,null);
-        g.drawImage(pieceZ.getImage(), pieceZ.getPositionX(), pieceZ.getPositionY(), null);
-        g.drawImage(piecev.getImage(), 200, 200, null);
-        g.drawImage(piecep.getImage(), 300, 300, null);
-        g.drawImage(piecex.getImage(), 400, 400, null);
-        g.drawImage(piecel.getImage(), 137, 165, null);
-        g.dispose();*/
-
-
-        //Add updatables and renderables
+        /*g.addUpdatables(piecel);
+        g.addRenderable(piecel);*/
 
         //start!
         g.start();

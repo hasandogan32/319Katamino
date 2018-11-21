@@ -133,14 +133,17 @@ public class GameManager {
         pieceZ.setPositionX(100);
         pieceZ.setPositionY(500);
 
-        piecev.setPositionX(150);
+        piecev.setPositionX(400);
         piecev.setPositionY(500);
 
-        piecep.setPositionX(300);
+        piecep.setPositionX(600);
         piecep.setPositionY(500);
 
-        piecex.setPositionX(450);
+        piecex.setPositionX(800);
         piecex.setPositionY(500);
+
+        piecel.setPositionX(1000);
+        piecel.setPositionY(400);
 
         g.addRenderable(table);
         g.addUpdatables(table);
@@ -157,8 +160,8 @@ public class GameManager {
         g.addUpdatables(piecex);
         g.addRenderable(piecex);
 
-        /*g.addUpdatables(piecel);
-        g.addRenderable(piecel);*/
+        g.addUpdatables(piecel);
+        g.addRenderable(piecel);
 
         //start!
         g.start();
